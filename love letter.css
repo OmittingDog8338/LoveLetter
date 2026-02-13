@@ -41,6 +41,99 @@ body {
   .mobile-btn {
     display: block;
   }
+  
+  body {
+    padding: 10px 10px 10px 10px;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+  
+  .from-section {
+    font-size: 24px;
+    margin-bottom: 40px;
+    margin-top: 10px;
+    gap: 10px;
+  }
+  
+  .bear-emoji {
+    font-size: 28px;
+  }
+  
+  .valentines {
+    top: 100px;
+    left: 0;
+    animation: none;
+  }
+  
+  .envelope {
+    width: 280px;
+    height: 210px;
+  }
+  
+  .envelope:before {
+    width: 198px;
+    height: 198px;
+    top: -99px;
+    left: 41px;
+  }
+  
+  .card {
+    width: 260px;
+    height: 185px;
+    top: 10px;
+    left: 10px;
+  }
+  
+  .text {
+    font-size: 9px;
+    line-height: 12px;
+    top: 15px;
+    left: 15px;
+    width: 230px;
+    height: 155px;
+    padding: 4px;
+  }
+  
+  .front {
+    border-right: 140px solid #f4978e;
+    border-top: 105px solid transparent;
+    border-bottom: 105px solid transparent;
+    left: 140px;
+    top: 5px;
+  }
+  
+  .front:before {
+    border-left: 280px solid #f8ad9d;
+    border-top: 210px solid transparent;
+    left: -140px;
+    top: -105px;
+  }
+  
+  .shadow {
+    width: 300px;
+    height: 20px;
+    top: 252px;
+    left: 0;
+  }
+  
+  .one, .two, .three, .four, .five {
+    height: 6px;
+    width: 6px;
+    top: 30px;
+  }
+  
+  .one, .two, .three, .four, .five {
+    top: 30px;
+  }
+  
+  .card.zoomed {
+    left: 50%;
+    scale: 1.8;
+  }
+  
+  .card-overlay {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
 }
 
 .container {
